@@ -40,9 +40,9 @@ const Quiz = () => {
     }
     return (
         <div className='mt-4'>
-            <h2 className='text-2xl font-semibold text-center'>Test Of {QuizData.data.name}</h2>
+            <h2 className='text-2xl font-semibold text-center'>Fun Of {QuizData.data.name}</h2>
             <h3 className='font-semibold text-center bg-blue-700 mt-5 p-2 text-white rounded w-6/12 mx-auto'>Your Score is : {rightAns.length}</h3>
-            <div className='px-4 mt-3 mb-16 grid lg:grid-cols-2 grid-cols-1 gap-5'>
+            <div className='px-4 mt-3 mb-16 grid lg:grid-cols-2 grid-cols-1 gap-5 bg-blue-700 p-4 rounded '>
                 {
                     QuizData.data.questions.map(question => <Question key={question.id} question={question} handleAns={handleAns}></Question>)
                 }
