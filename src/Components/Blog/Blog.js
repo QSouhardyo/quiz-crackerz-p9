@@ -11,7 +11,7 @@ const Blog = () => {
                     </Accordion.Title>
                     <Accordion.Content>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-
+                            React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL. Let us create a simple application to React to understand how the React Router works.
                         </p>
                     </Accordion.Content>
                 </Accordion.Panel>
