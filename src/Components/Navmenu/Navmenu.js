@@ -18,13 +18,13 @@ const Navmenu = () => {
                 <Navbar.Collapse>
                     <div className='text-center md:flex md:gap-7'>
                         <Navbar.Link>
-                            <NavLink className={({ isActive }) => isActive ? 'md:text-white-700 md:bg-inherit md:p-3 bg-blue-700 text-white py-2 px-20 rounded' : undefined} to="/home">Home</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'md:text-amber-500 md:bg-inherit md:p-3 bg-blue-700 text-amber-500 py-2 px-20 rounded' : undefined} to="/home">Home</NavLink>
                         </Navbar.Link>
                         <Navbar.Link>
-                            <NavLink className={({ isActive }) => isActive ? 'md:text-white-700 md:bg-inherit md:p-3 bg-blue-700 text-white py-2 px-20 rounded' : undefined} to="/statistics">Statistics</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'md:text-amber-500 md:bg-inherit md:p-3 bg-blue-700 text-amber-500 py-2 px-20 rounded' : undefined} to="/statistics">Statistics</NavLink>
                         </Navbar.Link>
                         <Navbar.Link>
-                            <NavLink className={({ isActive }) => isActive ? 'md:text-white-700 md:bg-inherit md:p-3 bg-blue-700 text-white py-2 px-20 rounded' : undefined} to="/blog">Blog</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'md:text-amber-500 md:bg-inherit md:p-3 bg-blue-700 text-amber-500 py-2 px-20 rounded' : undefined} to="/blog">Blog</NavLink>
                         </Navbar.Link>
                     </div>
                 </Navbar.Collapse>
